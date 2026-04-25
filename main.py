@@ -10,7 +10,9 @@ from telegram.ext import (
 # SOZLAMALAR
 # =========================
 
-TOKEN = "8743221106:AAFbFmTlRZIYcEK60UV9ORILQCE16JPYyZs"
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Kanal username (masalan: @kanalim)
 CHANNEL_USERNAME = "https://t.me/xdkxt"
