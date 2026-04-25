@@ -15,7 +15,7 @@ import os
 TOKEN = os.getenv("BOT_TOKEN")
 
 # Kanal username (masalan: @kanalim)
-CHANNEL_USERNAME = "https://t.me/xdkxt"
+CHANNEL_USERNAME = "@xdkxt"
 
 # Ovoz berish variantlari
 candidates = {
